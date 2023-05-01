@@ -30,6 +30,24 @@ body {
     letter-spacing: -6px;
     line-height: .8em;
   }
+  .header {
+    position: relative;
+  }
+ #gradient-canvas {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.15;
+  --gradient-color-2: #de46e6;
+  --gradient-color-1: #f5f5f5;
+  --gradient-color-4: #f5f5f5;
+  --gradient-color-3: #ffe100;
+  filter: blur(8px);
+  border-radius: 30px;
+ }
   #main-header {
     font-size: 6em;
   }
